@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LiebePlan</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="img/icons/icon-1.png"
+                alt="Icon"
+            />
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="text-primary m-0">LiebePlan</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Startseite</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">Über Uns</a>
+                    <a href="service.html" class="nav-item nav-link">Dienste</a>
+                    <div class="nav-item dropdown">
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            >Seiten</a
+                        >
+                        <div class="dropdown-menu border-0 m-0">
+                            <a href="portfolio.html" class="dropdown-item"
+                                >Mappe</a
+                            >
+                            <a href="advice.html" class="dropdown-item">
+                                Nützliche Vorschläge</a
+                            >
+                            <a href="testimonial.html" class="dropdown-item">
+                                Kundenfeedback</a
+                            >
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-1.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Traumhochzeit-Planung
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Von der ersten Idee bis zur perfekten
+                                        Umsetzung – wir gestalten Ihre
+                                        Traumhochzeit nach Ihren Wünschen. Unser
+                                        Team begleitet Sie Schritt für Schritt,
+                                        damit Ihr besonderer Tag unvergesslich
+                                        wird.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-2.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Location & Dekoration
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Ob rustikal, modern oder romantisch –
+                                        wir finden die perfekte Location und
+                                        zaubern eine stimmige Dekoration, die
+                                        Ihre Persönlichkeit und Liebe
+                                        widerspiegelt. Jeder Raum wird zu einer
+                                        magischen Kulisse für Ihren großen Tag.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-3.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Individuelle Hochzeitskonzepte
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Keine Hochzeit ist wie die andere! Wir
+                                        erstellen ein maßgeschneidertes Konzept,
+                                        das zu Ihnen passt, von der Musikauswahl
+                                        bis hin zu den kleinsten Details. Ihre
+                                        Hochzeit wird so einzigartig wie Ihre
+                                        Liebe.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container pt-5">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <h3 class="mb-3">Komplette Hochzeitsplanung</h3>
+                            <p class="mb-0">
+                                Lassen Sie uns die gesamte Organisation
+                                übernehmen – von der Auswahl der Location über
+                                die Gestaltung des Tagesablaufs bis hin zur
+                                Koordination aller Dienstleister. Wir sorgen
+                                dafür, dass alles reibungslos läuft, damit Sie
+                                sich voll und ganz auf Ihre Liebe konzentrieren
+                                können.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <h3 class="mb-3">Teilplanung & Beratung</h3>
+                            <p class="mb-0">
+                                Sie haben bereits Ideen, aber benötigen
+                                Unterstützung bei bestimmten Aspekten? Wir
+                                stehen Ihnen beratend zur Seite oder übernehmen
+                                gezielt einzelne Bereiche der Hochzeitsplanung,
+                                damit Ihre Vision perfekt umgesetzt wird.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="fact-item text-center bg-light h-100 p-5">
+                            <h3 class="mb-3">
+                                Hochzeitsmanagement am Tag der Feier
+                            </h3>
+                            <p class="mb-0">
+                                Am großen Tag kümmern wir uns um alle Details
+                                und den reibungslosen Ablauf, damit Sie und Ihre
+                                Gäste stressfrei feiern können. Wir koordinieren
+                                Dienstleister, sorgen für den Zeitplan und sind
+                                vor Ort, um eventuelle Herausforderungen direkt
+                                zu lösen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 mb-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-5 mb-4">
+                            Exklusive Hochzeitsplanung – maßgeschneidert für
+                            Ihren großen Tag
+                        </h1>
+                        <p class="mb-4">
+                            Jede Hochzeit ist so einzigartig wie das Paar, das
+                            sie feiert. Mit unserem Angebot der exklusiven
+                            Hochzeitsplanung bieten wir Ihnen die Möglichkeit,
+                            Ihren großen Tag bis ins kleinste Detail zu
+                            individualisieren. Von der ersten Idee bis zur
+                            Durchführung übernehmen wir alle Aspekte der
+                            Planung. Unser Ziel ist es, Ihre Träume in die
+                            Realität umzusetzen und ein Event zu gestalten, das
+                            genau auf Sie zugeschnitten ist. Wir beginnen mit
+                            einem ausführlichen Gespräch, um Ihre Wünsche,
+                            Vorlieben und Visionen zu verstehen. Ob es eine
+                            intime Zeremonie im kleinen Kreis oder eine große
+                            Feier im Schloss sein soll – wir entwickeln ein
+                            Konzept, das perfekt zu Ihnen passt. Jedes Detail
+                            wird sorgfältig geplant, von der Wahl der passenden
+                            Location über das Catering bis hin zur Dekoration
+                            und Unterhaltung. Dabei greifen wir auf ein Netzwerk
+                            von hochqualifizierten Dienstleistern zurück, die
+                            höchste Qualität garantieren. Wir begleiten Sie
+                            während des gesamten Prozesses, damit Sie jederzeit
+                            den Überblick behalten und entspannt auf den großen
+                            Tag zusteuern können. Unsere Aufgabe ist es, Ihre
+                            Belastung zu minimieren und Ihnen gleichzeitig die
+                            Kontrolle über die Gestaltung Ihrer Feier zu geben.
+                            Mit unserer exklusiven Hochzeitsplanung steht Ihr
+                            einzigartiger Tag im Mittelpunkt, und wir sorgen
+                            dafür, dass alles genau so abläuft, wie Sie es sich
+                            wünschen – oder sogar noch besser!
+                        </p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <img
+                            style="width: 100%"
+                            class="img-fluid"
+                            src="img/private.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="row g-5" style="flex-direction: row-reverse">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-5 mb-4">
+                            Intime Hochzeiten & Elopements – Persönliche Momente
+                            für Sie
+                        </h1>
+                        <p class="mb-4">
+                            Kleine, intime Hochzeiten oder Elopements gewinnen
+                            immer mehr an Beliebtheit. Sie stehen für den
+                            Wunsch, die Bedeutung der Hochzeit in einem
+                            persönlichen und oft minimalistischen Rahmen zu
+                            feiern. Unser Angebot für intime Hochzeiten richtet
+                            sich an Paare, die Wert auf individuelle und
+                            persönliche Momente legen, fernab von großen
+                            Festgesellschaften und aufwendigen Protokollen. Mit
+                            einer kleinen Hochzeit oder einem Elopement steht
+                            die Liebe und Verbindung des Paares im Mittelpunkt.
+                            Wir helfen Ihnen, eine besondere Atmosphäre zu
+                            schaffen, in der die Intimität und Emotionen Ihres
+                            Tages ungestört zur Geltung kommen. Ob Sie sich an
+                            einem abgeschiedenen Strand das Ja-Wort geben
+                            möchten oder eine Zeremonie im eigenen Garten
+                            bevorzugen – wir planen jede Einzelheit mit großer
+                            Sorgfalt und Leidenschaft. Unser Team übernimmt die
+                            gesamte Organisation, von der Suche nach einer
+                            geeigneten Location bis hin zur Auswahl eines
+                            Fotografen, der diese kostbaren Momente einfängt.
+                            Auch wenn Sie sich für eine Hochzeit im Ausland
+                            entscheiden, kümmern wir uns um die rechtlichen und
+                            logistischen Details, damit Sie sich voll und ganz
+                            auf Ihr Erlebnis konzentrieren können. Wir wissen,
+                            dass intime Hochzeiten besonders persönliche und
+                            emotionale Momente sind, daher legen wir großen Wert
+                            darauf, Ihre Wünsche in den Vordergrund zu stellen.
+                            Ihre Hochzeit soll ein Tag sein, an dem Sie sich
+                            ganz aufeinander und auf die Liebe, die Sie
+                            verbindet, konzentrieren können. Mit unserem Angebot
+                            für Elopements und kleine Hochzeiten gestalten wir
+                            für Sie ein unvergessliches Erlebnis in einem
+                            Rahmen, der nur Ihnen gehört.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <img
+                            style="width: 100%"
+                            class="img-fluid"
+                            src="img/private1.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h1 class="display-5 mb-4">Angebote und Sonderaktionen</h1>
+                    <p>
+                        Ihre Traumhochzeit muss nicht immer mit einem hohen
+                        Budget verbunden sein! Mit unseren speziellen Angeboten
+                        und Aktionen machen wir Ihre Hochzeitsplanung noch
+                        attraktiver. Profitieren Sie von zeitlich begrenzten
+                        Rabatten und exklusiven Vorteilen, die Ihnen helfen,
+                        Ihre perfekte Feier zu gestalten, ohne Kompromisse bei
+                        Qualität und Stil einzugehen. Werfen Sie einen Blick auf
+                        unsere aktuellen Angebote und machen Sie den ersten
+                        Schritt zu Ihrer unvergesslichen Hochzeit – zum besten
+                        Preis!
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-1.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    Frühbucher-Rabatt: Sparen Sie 10 % auf Ihre
+                                    Hochzeitsplanung
+                                </h3>
+                                <p class="mb-4">
+                                    Planen Sie Ihre Hochzeit mindestens 12
+                                    Monate im Voraus und profitieren Sie von
+                                    unserem exklusiven Frühbucher-Rabatt! Buchen
+                                    Sie frühzeitig und erhalten Sie 10 % Rabatt
+                                    auf unser gesamtes Hochzeitsplanungspaket.
+                                    Dieser Vorteil gilt für vollständige
+                                    Planungsservices und hilft Ihnen, stressfrei
+                                    und budgetfreundlich Ihre Hochzeit zu
+                                    planen. Lassen Sie uns gemeinsam den
+                                    perfekten Tag entwerfen – mit einem
+                                    finanziellen Vorteil für Sie.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-2.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    Last-Minute-Hochzeiten: 15 % Rabatt auf
+                                    kurzfristige Buchungen
+                                </h3>
+                                <p class="mb-4">
+                                    Kurzfristig den Bund fürs Leben schließen?
+                                    Kein Problem! Unser Last-Minute-Angebot
+                                    bietet Paaren, die ihre Hochzeit innerhalb
+                                    der nächsten 3 Monate planen, einen Rabatt
+                                    von 15 % auf die Planungsgebühr. Wir kümmern
+                                    uns um alle Details, auch bei einem engen
+                                    Zeitrahmen. Von der Location bis zur
+                                    Dekoration – mit unserem Team wird Ihre
+                                    Hochzeit auch auf den letzten Drücker
+                                    perfekt!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-3.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    Saisonale Rabatte: Winterhochzeiten mit 20 %
+                                    Ersparnis
+                                </h3>
+                                <p class="mb-4">
+                                    Planen Sie eine romantische Winterhochzeit
+                                    und profitieren Sie von unseren saisonalen
+                                    Angeboten. Wir bieten Ihnen 20 % Rabatt auf
+                                    die Planung einer Hochzeit in den Monaten
+                                    November bis Februar. Genießen Sie eine
+                                    magische Winteratmosphäre, während wir Ihre
+                                    Feier in eine unvergessliche Veranstaltung
+                                    verwandeln – zu einem besonders günstigen
+                                    Preis!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="service-item d-flex position-relative text-center h-100"
+                        >
+                            <img class="bg-img" src="img/blog-4.jpg" alt="" />
+                            <div class="service-text p-5">
+                                <h3 class="mb-3">
+                                    Exklusiv für kleine Hochzeiten: 25 % Rabatt
+                                    auf Elopement-Planung
+                                </h3>
+                                <p class="mb-4">
+                                    Wenn Sie von einer intimen Hochzeit oder
+                                    einem Elopement träumen, bieten wir Ihnen 25
+                                    % Rabatt auf unsere speziellen
+                                    Planungspakete für kleine Hochzeiten. Dieses
+                                    Angebot gilt für Feiern mit maximal 30
+                                    Gästen und beinhaltet eine komplette
+                                    Beratung, Planung und Koordination. Erleben
+                                    Sie eine wunderschöne, persönliche Feier –
+                                    mit einem attraktiven Preisvorteil.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">LiebePlan</h3>
+                        <p>
+                            Vielen Dank, dass Sie uns als Partner für Ihre
+                            Hochzeitsplanung in Betracht ziehen! Wir stehen
+                            Ihnen mit Herz und Leidenschaft zur Seite, um Ihren
+                            besonderen Tag unvergesslich zu machen. Von der
+                            ersten Beratung bis zur letzten kleinen Feinheit
+                            bieten wir Ihnen einen umfassenden Service, der Ihre
+                            individuellen Wünsche in den Mittelpunkt stellt.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Adresse</h3>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i
+                            >+436602831161
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i
+                            >liebe_plan@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i
+                            >Wiespachstraße 7, 5400 Hallein, Österreich
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Schnelle Links</h3>
+                        <a class="btn btn-link" href="about.html">Über mich</a>
+                        <a class="btn btn-link" href="contact.html">Kontakt</a>
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Datenschutzerklärung</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Nutzungsbedingungen</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Newsletter</h3>
+                        <p>
+                            Abonnieren Sie unseren Newsletter und erhalten Sie
+                            exklusive Tipps, Inspirationen und aktuelle Trends
+                            rund um das Thema Hochzeitsplanung direkt in Ihren
+                            Posteingang! Verpassen Sie keine unserer
+                            Sonderaktionen und lassen Sie sich von unseren
+                            kreativen Ideen für Ihre Traumhochzeit inspirieren.
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <input
+                                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Deine E-Mail"
+                                id="info"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendRequest()"
+                            >
+                                Anmeldung
+                            </button>
+                            <div id="validation" style="color: red"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie-Banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    relevanteres Surferlebnis auf der Website zu ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- Ende des Cookie-Banners -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

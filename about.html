@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LiebePlan</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="img/icons/icon-1.png"
+                alt="Icon"
+            />
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="text-primary m-0">LiebePlan</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link"
+                        >Startseite</a
+                    >
+                    <a href="about.html" class="nav-item nav-link active"
+                        >Über Uns</a
+                    >
+                    <a href="service.html" class="nav-item nav-link">Dienste</a>
+                    <div class="nav-item dropdown">
+                        <a
+                            href="#"
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            >Seiten</a
+                        >
+                        <div class="dropdown-menu border-0 m-0">
+                            <a href="portfolio.html" class="dropdown-item"
+                                >Mappe</a
+                            >
+                            <a href="advice.html" class="dropdown-item">
+                                Nützliche Vorschläge</a
+                            >
+                            <a href="testimonial.html" class="dropdown-item">
+                                Kundenfeedback</a
+                            >
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div
+            class="container-fluid page-header py-5 mb-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <h1 class="display-1 text-white animated slideInDown">
+                    Über uns
+                </h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb text-uppercase mb-0">
+                        <li class="breadcrumb-item">
+                            <a class="text-white" href="index.html"
+                                >Startseite</a
+                            >
+                        </li>
+                        <li
+                            class="breadcrumb-item text-primary active"
+                            aria-current="page"
+                        >
+                            Über uns
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img">
+                            <img
+                                class="img-fluid"
+                                src="img/about-1.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid"
+                                src="img/about-2.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="display-5 mb-4">
+                            Unsere Firmengeschichte: Vom Traum zur Realität
+                        </h1>
+                        <p>
+                            Unsere Geschichte begann vor mehreren Jahren mit der
+                            Vision, unvergessliche Momente für Paare zu
+                            schaffen, die den wichtigsten Tag ihres Lebens
+                            feiern wollen. Was als kleine Idee begann, hat sich
+                            mittlerweile zu einer renommierten Hochzeitsagentur
+                            entwickelt, die mit Leidenschaft und Hingabe den
+                            schönsten Tag im Leben vieler Menschen gestaltet.
+                            Von Anfang an war es unser Ziel, mehr als nur eine
+                            Dienstleistung anzubieten. Wir wollten Geschichten
+                            erzählen, Emotionen wecken und einzigartige
+                            Erlebnisse kreieren, die den Charakter und die Liebe
+                            jedes Paares widerspiegeln. Unsere Gründer, selbst
+                            Liebhaber von eleganten und durchdachten
+                            Veranstaltungen, erkannten schnell, dass es nicht
+                            nur um die Organisation, sondern vor allem um die
+                            Schaffung einer emotionalen Verbindung geht – sowohl
+                            zwischen dem Paar als auch zwischen dem Team und den
+                            Kunden. Diese Philosophie ist bis heute unser
+                            Leitbild.
+                        </p>
+                        <p class="mb-4">
+                            In den ersten Jahren spezialisierten wir uns auf
+                            kleine, intime Hochzeiten, bei denen wir unsere
+                            Liebe zum Detail und unser Gespür für die
+                            individuellen Wünsche der Paare unter Beweis stellen
+                            konnten. Mit der Zeit wuchs nicht nur unser Team,
+                            sondern auch unser Netzwerk an Partnern und
+                            Dienstleistern. Dadurch konnten wir unseren Service
+                            erweitern und größere Veranstaltungen übernehmen,
+                            die ebenfalls die persönliche Note und
+                            Einzigartigkeit jeder Hochzeit bewahren. Heute
+                            zählen wir zu den führenden Agenturen in der
+                            Hochzeitsplanung und haben zahlreiche Hochzeiten in
+                            verschiedensten Stilen und Größen organisiert – von
+                            traumhaften Outdoor-Zeremonien bis hin zu luxuriösen
+                            Feierlichkeiten in atemberaubenden Locations. Trotz
+                            unseres Wachstums sind wir unserem ursprünglichen
+                            Anspruch treu geblieben: Jede Hochzeit so
+                            individuell und einzigartig wie das Paar selbst zu
+                            gestalten.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-5" style="flex-direction: row-reverse">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img">
+                            <img
+                                class="img-fluid"
+                                src="img/about-3.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid"
+                                src="img/about-4.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="display-5 mb-4">
+                            Unsere Mission und Werte: Ihre Liebe, unser
+                            Engagement
+                        </h1>
+                        <p>
+                            Unsere Mission ist es, den schönsten Tag im Leben
+                            eines Paares zu einem einzigartigen und
+                            unvergesslichen Erlebnis zu machen. Dabei steht bei
+                            uns nicht nur die Organisation im Vordergrund,
+                            sondern die persönliche Bindung zu jedem Paar. Jede
+                            Hochzeit ist für uns eine Herzensangelegenheit – wir
+                            möchten, dass Ihr Tag so individuell und besonders
+                            ist wie Ihre Liebesgeschichte. Unser Ziel ist es,
+                            Ihre Träume zu verwirklichen und Ihnen eine
+                            stressfreie, emotionale und perfekt durchdachte
+                            Feier zu ermöglichen. Unser Team arbeitet mit der
+                            Überzeugung, dass jede Hochzeit ein Spiegelbild der
+                            Liebe und Persönlichkeit des Paares sein sollte.
+                            Deshalb legen wir großen Wert darauf, Sie
+                            kennenzulernen, Ihre Wünsche zu verstehen und Ihre
+                            Visionen in die Realität umzusetzen. Vom ersten
+                            Gespräch bis zum letzten Detail stehen wir Ihnen zur
+                            Seite und begleiten Sie durch den gesamten
+                            Planungsprozess. Unsere Mission ist es, Ihre
+                            Erwartungen nicht nur zu erfüllen, sondern zu
+                            übertreffen.
+                        </p>
+                        <p class="mb-4">
+                            Unsere Werte basieren auf Vertrauen, Kreativität und
+                            Liebe zum Detail. Vertrauen ist die Basis jeder
+                            erfolgreichen Zusammenarbeit. Wir wissen, wie
+                            wichtig es ist, dass Sie sich auf uns verlassen
+                            können, während wir die Verantwortung für Ihren
+                            großen Tag übernehmen. Deshalb setzen wir auf
+                            transparente Kommunikation und eine enge
+                            Zusammenarbeit mit Ihnen und allen beteiligten
+                            Dienstleistern. Kreativität ist der Schlüssel zu
+                            einer Hochzeit, die wirklich unvergesslich ist.
+                            Unser Team lässt sich von Ihren Ideen inspirieren
+                            und fügt innovative, individuelle Elemente hinzu,
+                            die Ihre Feier einzigartig machen. Jede Hochzeit,
+                            die wir planen, wird mit größter Sorgfalt und einem
+                            Auge fürs Detail gestaltet. Egal ob es um die
+                            Auswahl der Location, die Dekoration oder die
+                            kleinen emotionalen Momente geht – wir sorgen dafür,
+                            dass alles perfekt aufeinander abgestimmt ist.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h1 class="display-5 mb-4">
+                        Ihre Hochzeitsprofis an Ihrer Seite
+                    </h1>
+                    <p>
+                        Hinter jeder erfolgreichen Hochzeit steht ein
+                        engagiertes Team von Experten, die dafür sorgen, dass
+                        jedes Detail perfekt ist. Unser Team besteht aus
+                        erfahrenen Planern, kreativen Köpfen und
+                        Organisationstalenten, die Ihre Hochzeit mit
+                        Leidenschaft und Professionalität gestalten. Wir
+                        arbeiten eng mit Ihnen zusammen, um Ihre Vision in die
+                        Realität umzusetzen und einen unvergesslichen Tag zu
+                        kreieren. Lernen Sie unser Team kennen, das Ihre Wünsche
+                        in den Mittelpunkt stellt und mit Ihnen gemeinsam Ihre
+                        Traumhochzeit verwirklicht.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel partner-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="partner-item text-center"
+                        data-dot="<img class='img-fluid partner-item' src='img/partner-1.jpg' alt=''>"
+                    >
+                        <h3>Julia Meier</h3>
+                        <p class="fs-5">
+                            Julia ist unsere Chefplanerin und das Herzstück
+                            unseres Teams. Mit über 10 Jahren Erfahrung in der
+                            Hochzeitsplanung bringt sie nicht nur umfangreiches
+                            Know-how, sondern auch ein untrügliches Gespür für
+                            die Wünsche und Bedürfnisse jedes Paares mit. Ihre
+                            Stärke liegt darin, selbst die kleinsten Details zu
+                            perfektionieren und gleichzeitig den Überblick über
+                            das große Ganze zu behalten. Julia sorgt dafür, dass
+                            Ihre Hochzeit von Anfang bis Ende reibungslos
+                            verläuft.
+                        </p>
+                    </div>
+                    <div
+                        class="partner-item text-center"
+                        data-dot="<img class='img-fluid partner-item' src='img/partner-2.jpg' alt=''>"
+                    >
+                        <h3>Markus Bauer</h3>
+                        <p class="fs-5">
+                            Als unser Kreativdirektor ist Markus der Kopf hinter
+                            den außergewöhnlichen Dekorations- und
+                            Designkonzepten, die jede Hochzeit zu einem
+                            einzigartigen Erlebnis machen. Mit einem Auge für
+                            Ästhetik und einer Leidenschaft für innovative Ideen
+                            verwandelt er Ihre Vorstellungen in wunderschöne und
+                            unvergessliche Kulissen. Markus liebt es, mit
+                            Farben, Blumen und besonderen Details zu arbeiten,
+                            um Ihre Feier individuell und stilvoll zu gestalten.
+                        </p>
+                    </div>
+                    <div
+                        class="partner-item text-center"
+                        data-dot="<img class='img-fluid partner-item' src='img/partner-3.jpg' alt=''>"
+                    >
+                        <h3>Anna Schneider</h3>
+                        <p class="fs-5">
+                            Anna ist unsere Expertin für Logistik und
+                            Zeitplanung. Ihre Fähigkeit, auch in stressigen
+                            Situationen den Überblick zu behalten, macht sie zu
+                            einer unverzichtbaren Unterstützung bei jeder
+                            Hochzeit. Sie koordiniert alle Dienstleister,
+                            überwacht den Ablauf am großen Tag und stellt
+                            sicher, dass jedes Element zur richtigen Zeit am
+                            richtigen Ort ist. Dank Annas Organisationstalent
+                            können Sie sich darauf verlassen, dass alles wie
+                            geplant abläuft.
+                        </p>
+                    </div>
+                    <div
+                        class="partner-item text-center"
+                        data-dot="<img class='img-fluid partner-item' src='img/partner-4.jpg' alt=''>"
+                    >
+                        <h3>Lara Fischer</h3>
+                        <p class="fs-5">
+                            Lara ist unsere Spezialistin für Gästemanagement und
+                            individuelle Wünsche. Sie kümmert sich um alles, was
+                            das Wohlbefinden Ihrer Gäste betrifft – von der
+                            Unterkunft über den Transport bis hin zu speziellen
+                            Ernährungsbedürfnissen. Außerdem steht sie Ihnen und
+                            Ihren Gästen am Hochzeitstag als Ansprechpartnerin
+                            zur Verfügung, um sicherzustellen, dass jeder sich
+                            wohlfühlt und alles reibungslos funktioniert.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">LiebePlan</h3>
+                        <p>
+                            Vielen Dank, dass Sie uns als Partner für Ihre
+                            Hochzeitsplanung in Betracht ziehen! Wir stehen
+                            Ihnen mit Herz und Leidenschaft zur Seite, um Ihren
+                            besonderen Tag unvergesslich zu machen. Von der
+                            ersten Beratung bis zur letzten kleinen Feinheit
+                            bieten wir Ihnen einen umfassenden Service, der Ihre
+                            individuellen Wünsche in den Mittelpunkt stellt.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Adresse</h3>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i
+                            >+436602831161
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i
+                            >liebe_plan@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i
+                            >Wiespachstraße 7, 5400 Hallein, Österreich
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Schnelle Links</h3>
+                        <a class="btn btn-link" href="about.html">Über mich</a>
+                        <a class="btn btn-link" href="contact.html">Kontakt</a>
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Datenschutzerklärung</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Nutzungsbedingungen</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-light mb-4">Newsletter</h3>
+                        <p>
+                            Abonnieren Sie unseren Newsletter und erhalten Sie
+                            exklusive Tipps, Inspirationen und aktuelle Trends
+                            rund um das Thema Hochzeitsplanung direkt in Ihren
+                            Posteingang! Verpassen Sie keine unserer
+                            Sonderaktionen und lassen Sie sich von unseren
+                            kreativen Ideen für Ihre Traumhochzeit inspirieren.
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <input
+                                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Deine E-Mail"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                Anmeldung
+                            </button>
+                            <div id="result" style="color: red"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie-Banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    relevanteres Surferlebnis auf der Website zu ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- Ende des Cookie-Banners -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
