@@ -25,7 +25,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 4em;
     letter-spacing: 3px;
-    color: #b78d65;
+    color: #4c8055;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -37,7 +37,7 @@ h1 {
     letter-spacing: 1px;
 }
 .go-home {
-    background: #b78d65;
+    background: #4c8055;
     border: 2px solid #ffffff;
     color: #ffffff;
     font-weight: 600;
@@ -58,10 +58,10 @@ h1 {
 }
 .go-home:hover {
     background: transparent;
-    border-color: #b78d65;
+    border-color: #4c8055;
 }
 a:hover .go-home {
-    color: #b78d65;
+    color: #4c8055;
 }
 .go-home a {
     text-decoration: none;
@@ -77,13 +77,13 @@ a:hover .go-home {
 .footer-like p {
     margin: 0;
     padding: 4px;
-    color: #b78d65;
+    color: #4c8055;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
 .footer-like p a {
     text-decoration: none;
-    color: #b78d65;
+    color: #4c8055;
     font-weight: 600;
 }
 
